@@ -80,3 +80,43 @@
   flex-wrap: wrap;
 	margin: 16px 0;
 }
+
+.form__btn{
+	margin-top: 44px;
+}
+
+.form__button{
+	padding: 21px 41px;
+	background-color: $red;
+	border-radius: 100px;
+	border: none;
+	color: $white;
+	font-family: 'Play';
+
+	&:hover{
+		background-color: $dark-gray;
+		transition: all .5s;
+		cursor: pointer;
+	}
+
+	&--theme--red{
+		background: $red;
+		color: #fff;
+
+		&:hover{
+			background: #fff;
+			color: $red;
+		}
+	}
+
+	&--theme--transparent{
+		background: transparent;
+		color: #fff;
+		border: none;
+
+		&:hover{
+			color: $red;
+			background: transparent;
+		}
+	}
+}
