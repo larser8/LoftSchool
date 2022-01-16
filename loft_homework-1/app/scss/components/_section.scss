@@ -1,24 +1,19 @@
 .section{
-  height: 100vh;
-	min-height: 650px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	.container{
 		position: relative;
 		&::before{
 			content: "";
 			position: absolute;
-			width: 46px;
-			height: 10px;
-			bottom: -10%;
-			right: 0;
+			font-size: 1px;
+		  width: 34.5px;
+      height: 34px;
+			bottom: -9%;
+			right: 94%;
 			transform: rotate(-45deg);
 			background-color: $dark-gray;
 		}
 	}
 }
-
 .section__title{
 	font-family: 'Play';
 	font-size: 36px;

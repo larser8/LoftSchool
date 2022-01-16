@@ -1,3 +1,28 @@
+.section__reviews{
+	height: 100vh;
+	  min-height: 650px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  .container{
+		  position: relative;
+		  &::before{
+			  content: "";
+			  position: absolute;
+			  border-radius: 50%;
+			  width: 35px;
+			  height: 35px;
+			  bottom: -9%;
+			  right: 94%;
+			  transform: rotate(-45deg);
+			  background-color: $dark-gray;
+		  }
+	  }
+  }
+
+
+
+
 .reviews__subinfo{
 	display: flex;
 	margin-bottom: 32px;
@@ -6,6 +31,8 @@
 	max-height: 398px;
 	overflow: hidden;
 	position: relative;
+
+	
 	
 	&::before{
 		content: "";
